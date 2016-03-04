@@ -1,0 +1,96 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme" parent="android:Theme.Black" >
+    </style>
+
+    <style name="button_style" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+
+    <style name="vertical_button_group" parent="button_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+
+    <style name="horizontal_button_group" parent="button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="button_inputmode_style">
+    </style>
+
+    <style name="vertical_inputmode_button_group" parent="button_inputmode_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <!-- Left column buttons -->
+
+    <style name="button_smallabc_style" parent="vertical_inputmode_button_group">
+        <item name="android:background">@drawable/button_smallabc_background</item>
+    </style>
+
+    <style name="button_bigabc_style" parent="vertical_inputmode_button_group">
+        <item name="android:background">@drawable/button_bigabc_background</item>
+    </style>
+
+    <style name="button_numbers_style" parent="vertical_inputmode_button_group">
+        <item name="android:background">@drawable/button_numbers_background</item>
+    </style>
+
+    <style name="button_specialchar_style" parent="vertical_inputmode_button_group">
+        <item name="android:background">@drawable/button_specialchar_background</item>
+    </style>
+
+
+    <!-- Right column buttons -->
+
+    <style name="button_erase_style" parent="vertical_button_group">
+        <item name="android:background">@drawable/button_erase_background</item>
+    </style>
+    <style name="button_space_style" parent="vertical_button_group">
+        <item name="android:background">@drawable/button_space_background</item>
+    </style>
+    <style name="button_enter_style" parent="vertical_button_group">
+        <item name="android:background">@drawable/button_enter_background</item>
+    </style>
+    <style name="button_action_style" parent="vertical_button_group">
+        <!-- <item name="android:background">@drawable/button_action_background</item> -->
+    </style>
+
+
+    <!-- Bottom row buttons -->
+
+    <style name="button_left_style" parent="horizontal_button_group">
+        <item name="android:background">@drawable/button_left_background</item>
+    </style>
+    <style name="button_clear_style" parent="horizontal_button_group">
+        <item name="android:background">@drawable/button_clear_background</item>
+    </style>
+    <style name="button_accept_style" parent="horizontal_button_group">
+        <item name="android:background">@drawable/button_accept_background</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="button_right_style" parent="horizontal_button_group">
+        <item name="android:background">@drawable/button_right_background</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:drawable="@drawable/button_smallabc_checked" android:state_checked="true"/>
+    <item android:drawable="@drawable/button_smallabc_loaded" app:state_loaded="true"/>
+    <item android:drawable="@drawable/button_smallabc_enabled" android:state_enabled="true"/>
+    <item android:drawable="@drawable/button_smallabc_default"/>
+
+</selector>
